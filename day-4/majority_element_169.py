@@ -22,12 +22,12 @@ class Solution(object):
         count = 0
 
         for num in nums:
-            if count == 0:
+            if count == 0: 
                 most_common = num
             count += 1 if num == most_common else -1
         return most_common
 
-nums = [2,2,1,1,1,2,2]
+
+nums = [2, 2, 1, 1, 1, 2, 2]
 sol = Solution()
 print(sol.majorityElement(nums))
-
