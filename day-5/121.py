@@ -21,7 +21,7 @@ class Solution(object):
 
         for price in prices:
             if price < min_price:
-                min_price = price 
+                min_price = price
                 # Update min price if we find a lower one
             else:
                 max_profit = max(max_profit, price - min_price)  
