@@ -12,4 +12,4 @@ class Solution(object):
         for i in range(1, n + 1):
             dp[i] = dp[i >> 1] + (i & 1)  # Right shift and check last bit
         
-        return dp        
+        return dp
